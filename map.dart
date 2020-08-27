@@ -16,7 +16,8 @@ void main() {
   // order they were added.
 
   // destructuring not possible yet!
-  for (var entry in shapes.entries) print(entry);
+  for (var entry in shapes.entries)
+    print('Entry: $entry, Key: ${entry.key}, Value: ${entry.value}');
   for (var key in shapes.keys) print(key);
   for (var value in shapes.values) print(value);
 }
