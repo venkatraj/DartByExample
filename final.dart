@@ -2,19 +2,19 @@
 void main() {
   final foo = 'hello';
 
-  try {
-    foo = 'goodbye';
-  } catch (e) {
-    print('error');
-  }
+  // try {
+  //   foo = 'goodbye';
+  // } catch (e) {
+  //   print('error');
+  // }
 
-  var pos = new Position(4);
+  // var pos = new Position(4);
 
-  try {
-    pos.x = 100;
-  } catch (e) {
-    print('error');
-  }
+  // try {
+  //   pos.x = 100;
+  // } catch (e) {
+  //   print('error');
+  // }
 }
 
 class Position {
